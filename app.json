@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Giftd",
+    "slug": "Giftd",
+    "privacy": "unlisted",
+    "owner": "giftdapp2022_org",
+    "version": "4.2.3",
+    "orientation": "portrait",
+    "icon": "./assets/images/favicon.png",
+    "scheme": "giftd",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7B61FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.givegiftd.giftd"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.givegiftd.giftd"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Giftd to access",
+          "savePhotosPermission": "Allow Giftd to access",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ]
+  }
+}
